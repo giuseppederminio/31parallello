@@ -19,5 +19,7 @@ class PublicController extends Controller
 
         return view('galleria.index', compact('immagini'));
     }
-
+    public function contatti (){
+        return view ('contatti');
+    }
 }

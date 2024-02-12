@@ -16,3 +16,4 @@ use App\Http\Controllers\PublicController;
 
 Route::get('/', [PublicController::class,'home'])->name('home');
 Route::get('/galleria/index',[PublicController::class,'index'])->name('galleria.index');
+Route::get('/contatti', [PublicController::class,'contatti'])->name('contatti');

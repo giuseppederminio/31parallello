@@ -18,7 +18,7 @@
                     <a class="nav-link" href="{{route('galleria.index')}}">Bagno</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="{{route('galleria.index')}}">Contatti</a>
+                    <a class="nav-link" href="{{route('contatti')}}">Contatti</a>
                 </li>
                 
             </ul>
